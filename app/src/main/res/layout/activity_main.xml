@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="547dp"
+        android:layout_weight="0.6"
+        android:background="#551947">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:gravity="center|left"
+            android:paddingLeft="65dp"
+            android:text="Fly to Seoul"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="17.25dp"
+            android:layout_height="16.69dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/ic_vector__1_" />
+
+
+        <View
+            android:id="@+id/bar1"
+            android:layout_width="310dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="137dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="109dp"
+            android:layout_marginRight="145dp"
+            android:layout_marginBottom="7dp"
+            android:text="1Adult,Economy"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="109dp"
+            android:layout_marginLeft="29dp"
+            app:srcCompat="@drawable/ic_carbon_user_filled" />
+
+        <View
+            android:id="@+id/bar2"
+            android:layout_width="310dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="195dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="167dp"
+            android:layout_marginLeft="28dp"
+            app:srcCompat="@drawable/ic_vector__2_" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="167dp"
+            android:layout_marginRight="145dp"
+            android:layout_marginBottom="7dp"
+            android:text="Seoul,Korea"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+        <View
+            android:id="@+id/bar3"
+            android:layout_width="310dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="243dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="19dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/ic_vector__3_"
+            android:layout_marginTop="215dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="319dp"
+            />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="69dp"
+            android:layout_marginTop="215dp"
+            android:layout_marginRight="145dp"
+            android:layout_marginBottom="7dp"
+            android:text="Choose Destination"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/bar4"
+            android:layout_width="310dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="18dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/ic_vector__4_"
+            android:layout_marginTop="267dp"
+            android:layout_marginLeft="28dp"
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="267dp"
+            android:layout_marginRight="145dp"
+            android:layout_marginBottom="7dp"
+            android:text="select Dates"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:layout_weight="0.4"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="180dp"
+            android:layout_height="15dp"
+            android:text="Explore flights by desigination"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="169dp"
+            android:layout_marginBottom="221dp"
+            android:textColor="#C2C2C2"
+            android:textStyle="bold"
+            android:textSize="12dp"
+
+
+            />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="122dp"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/khumbu_valley_1"
+            android:layout_marginTop="39dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginBottom="12dp"
+            />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="Khumbu Valley,Nepal"
+            android:textSize="13dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="52dp"
+            android:layout_marginLeft="163dp"
+            />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="Non-Stop 5h 16min+"
+            android:textColor="#C2C2C2"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="163dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="122dp"
+            android:layout_height="73dp"
+            app:srcCompat="@drawable/maldives_2"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="21dp"
+            />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maldives,South Asia"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="166dp"
+            />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non Stop 8h 24min+"
+            android:textColor="#C2C2C2"
+            android:layout_marginTop="164dp"
+            android:layout_marginLeft="164dp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
